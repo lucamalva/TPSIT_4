@@ -135,7 +135,7 @@ public class Pista extends javax.swing.JFrame {
         Giudice giudice = new Giudice(this);
         giudice.start();
         this.bottoneAvvio.setEnabled(false);
-        this.Riavvia.setEnabled(false);
+        this.Riavvia.setEnabled(true);
 
     }//GEN-LAST:event_bottoneAvvioActionPerformed
 
